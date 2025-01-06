@@ -82,8 +82,11 @@ This project implements an HTTP server to handle URL shortening and retrieval, a
 ### Run Tests
 1. Start the server as described above.
 2. Run the tests:
-   ```bash
-pytest --html=report.html --cov=server --cov-report=html   ```
+```
+bash
+pytest --html=report.html --cov=server --cov-report=html   
+```
+
 3. It will generate a  report.html file
 
 ### Test Cases
